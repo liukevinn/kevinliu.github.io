@@ -1,0 +1,58 @@
+.fixed-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff; /* Adjust the color to match your design */
+    z-index: 1000; /* Ensure the header stays above other content */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: adds a shadow for better visibility */
+  }
+  .ProfilePic {
+    height: 50px; /* Adjust the size of your image */
+    border-radius: 50%; /* Make the image round */
+    margin-right: 15px; /* Add some margin between the image and the name */
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    max-width: 1200px; /* Maximum width of your content area */
+    margin: auto;
+  }
+  
+  .header-name {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+    /* Add styles for the name text if needed */
+  }
+  
+  .header-nav a {
+    text-decoration: none;
+    margin: 0 10px; /* Space out the navigation links */
+    color: #333; /* Adjust the color to match your design */
+    font-size: 16px; /* Adjust the font size as needed */
+    /* Add additional styles for your navigation links if needed */
+  }
+  
+  .header-nav a:hover {
+    text-decoration: underline; /* Style for hover state */
+  }
+  
+  /* Use media queries to make the header responsive */
+  @media (max-width: 768px) {
+    .header-content {
+      flex-direction: column;
+    }
+    
+    .header-nav {
+      margin-top: 10px;
+    }
+  
+    .header-nav a {
+      display: block;
+      margin: 5px 0;
+    }
+  }
+  

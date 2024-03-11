@@ -8,25 +8,28 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: adds a shadow for better visibility */
   }
   .ProfilePic {
-    height: 50px; /* Adjust the size of your image */
+    height: 35px; /* Adjust the size of your image */
     border-radius: 50%; /* Make the image round */
-    margin-right: 15px; /* Add some margin between the image and the name */
+    margin-right: 0px; /* Add some margin between the image and the name */
   }
   
   .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; /* Adjust padding as needed */
+    padding: 0px 20px; /* Adjust padding as needed */
     max-width: 1200px; /* Maximum width of your content area */
     margin: auto;
   }
   
+  
   .header-name {
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 10px; /* Adjust the font size as needed */
     font-weight: bold;
-    /* Add styles for the name text if needed */
-  }
+    color: black;
+    text-align: left; /* Align the text to the left */
+}
+
   
   .header-nav a {
     text-decoration: none;

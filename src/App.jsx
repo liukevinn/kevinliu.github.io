@@ -14,18 +14,18 @@ import './App.css';
     return (
       <div>
       <Header />
-        <h1 className="left-align">Hi! I am Kevin, a freshman at Duke University studying Computer Science and Statistics.</h1>
-  
-        <h2 className="left-align">Get to know me!</h2>
+
+      <h1 className="title">Hi! I am Kevin, a freshman at Duke University studying Computer Science and Statistics.</h1>
+        <h2 className="title">Get to know me!</h2>
         <ul className="interests-list">
           {interests.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </ul>
   
-        <h2>Projects</h2>
-        <h3>Here is what I have been up to!</h3>
-        <h1>Timeline</h1>
+        <h2 className = "title">Projects</h2>
+       
+        <h1 className = "title">Timeline</h1>
         <Timeline/>
 
 

@@ -2,8 +2,14 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  font-family: "Libre Franklin"
+  font-family: "Libre Franklin";
+  background: white;
 }
+
+.title {
+  text-align: center;
+}
+
 
 .title {
   text-align: center;
@@ -26,6 +32,8 @@
 .interests-list {
   list-style: none;
   padding: 0;
+  text-align: center;
+  font-family: "Libre Franklin";
 }
 
 .project {
